@@ -1,0 +1,152 @@
+{
+  "vina_rtmscore/pose_moves.py": {
+    "source": "benchmark/pose_moves.py",
+    "source_sha256": "4b263d25beac6e77ddaf52de5ff24283b5d795275014ff4b10ad0c4fd7ec11a4"
+  },
+  "vina_rtmscore/hybrid_moves.py": {
+    "source": "benchmark/hybrid_moves.py",
+    "source_sha256": "bc27ba399c3ea61c4799030a081efaaf45c15b8ea27d9f1ef8b6189ff8cc34d9"
+  },
+  "vina_rtmscore/fast_vina.py": {
+    "source": "benchmark/fast_vina.py",
+    "source_sha256": "6354d6327b2156a0b58d0ab4fff1051b1836b4187bfc38c84fe721eb82aa9dad"
+  },
+  "vina_rtmscore/cached_rtm.py": {
+    "source": "benchmark/cached_rtm.py",
+    "source_sha256": "ee055429a43de3a44c7c14f10b8dbb4c23e1f461c30e5caac8f42484b965abce"
+  },
+  "vina_rtmscore/engine.py": {
+    "source": "benchmark/hybrid_engine.py",
+    "source_sha256": "50cb30128250fda85ae81e4f210babcf2b0919bf0fda8ea8670db98cee7937ae"
+  },
+  "vina_rtmscore/preparation.py": {
+    "source": "benchmark/custom_preparation.py",
+    "source_sha256": "96f1e90dc878767d520b9a189354ca2ce806df961d2867acd2e5c015c2818663"
+  },
+  "vina_rtmscore/docking.py": {
+    "source": "benchmark/custom_docking.py",
+    "source_sha256": "0bdcf8efe0ba429f1ecf299e1f1ac62fa1ad58adecbc03a048dd4f47b2494cda"
+  },
+  "vina_rtmscore/backends.py": {
+    "source": "benchmark/hybrid_backends.py",
+    "source_sha256": "1d4582026ed6409d008fb56d055490a2c14e35dc5143bb644031401d47b0c06a"
+  },
+  "vina_rtmscore/objective.py": {
+    "source": "benchmark/guided_search.py",
+    "source_sha256": "6266c3fa436eb591b944f24c3a56b8b614de637c33f5da425efd0536a82241b0"
+  },
+  "vina_rtmscore/receptor.py": {
+    "source": "scripts/prepare.py",
+    "source_sha256": "748a2ca61610c79c6480955cff970b88f74980b08f5287ce39820bda6b41f046"
+  },
+  "vina_rtmscore/chemistry.py": {
+    "source": "benchmark/search_backends.py",
+    "source_sha256": "885ef54db5614db5c6de254d624492bde67add20c9e9cdee18409594ac02e000"
+  },
+  "vina_rtmscore/score_matching.py": {
+    "source": "benchmark/scoring.py",
+    "source_sha256": "b5da9661a5aeb9cc88b3428bd8b60e000eda95aa2966eac36ae9cb57ac757c60"
+  },
+  "vina_rtmscore/worker_client.py": {
+    "source": "benchmark/search_backends.py",
+    "source_sha256": "885ef54db5614db5c6de254d624492bde67add20c9e9cdee18409594ac02e000"
+  },
+  "vina_rtmscore/model_loader.py": {
+    "source": "scripts/rtm_search_worker.py",
+    "source_sha256": "e3da84f30355e48409b9f4c6a532ada9b8b7e209e25085801b6413b4db1ce8d7"
+  },
+  "vina_rtmscore/provenance.py": {
+    "source": "scripts/run_guided_search.py",
+    "source_sha256": "ec07fac77500dd84e75ca6dd54494f0585e6e513cb90025f8b7c0c520a1d95d2"
+  },
+  "scripts/dock.py": {
+    "source": "scripts/dock.py",
+    "source_sha256": "e6b847e68a2cc5d0fc5d591c7b42895ce9cb1b08f5c94df87d43b2f5f72d4ce5"
+  },
+  "scripts/rtm_worker.py": {
+    "source": "scripts/cached_rtm_worker.py",
+    "source_sha256": "8a1dcb448767a18c5abd3b3f255a256594c358df58c3333b47f6f5778e9d7491"
+  },
+  "scripts/build_fast_vina.py": {
+    "source": "scripts/build_fast_vina.py",
+    "source_sha256": "dd03b53017b11570ed5ce4224de27b5703a09c2cadabb0dd0bee3b8939f0d080"
+  },
+  "native/fast_vina.cpp": {
+    "source": "extensions/hybrid_search_v2/native/fast_vina.cpp",
+    "source_sha256": "9740cf0969a46ba2d6ff4b3619d6e1d5f1f86d6bca03a4fbd9b88d98aa54035c",
+    "exact_copy": true
+  },
+  "native/libfast_vina.so": {
+    "source": "extensions/hybrid_search_v2/native/libfast_vina.so",
+    "source_sha256": "c66c72d48dda7fb4272a03cab72e7505eb89615e0f9ed374aca899d80bcebc0d",
+    "exact_copy": true
+  },
+  "native/vina-1.2.7.tar.gz": {
+    "source": "extensions/hybrid_search_v2/native/vina-1.2.7.tar.gz",
+    "source_sha256": "79e5288d10207b85f20adac3dd6f4708eac761c2d8070fbad76ff997cf48e4f9",
+    "exact_copy": true
+  },
+  "native/build_provenance.json": {
+    "source": "extensions/hybrid_search_v2/native/build_provenance.json",
+    "source_sha256": "f46836853ba26bfc47643b4d145dfe09fc9ce3d94ba4082f516d872c36285eed",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/LICENSE": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/LICENSE",
+    "source_sha256": "30fca3da57e2d420c6d711f5e10d3d4e2fb437abfe0322f758dff1ade17d31e6",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/example/rtmscore.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/example/rtmscore.py",
+    "source_sha256": "add3800b8c6015b7195d08b09c67a5f0856902b5a630fcbf332f5466c913cf8a",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/trained_models/rtmscore_model1.pth": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/trained_models/rtmscore_model1.pth",
+    "source_sha256": "399727a85de96c011a75a4c242ebe947753724f01e8d15139fae7bcad106bfc2",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/model/model2.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/model/model2.py",
+    "source_sha256": "db2738114dce9a997cd77e8818e773266a916522bb061cbccfd022d2256c267c",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/model/utils.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/model/utils.py",
+    "source_sha256": "169ec82f55c563e12ecd64560c9f59d25c8fdef5e997248db084c0568aa6d2ea",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/model/__init__.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/model/__init__.py",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/feats/extract_pocket_prody.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/feats/extract_pocket_prody.py",
+    "source_sha256": "f55b974ebe79f7bf3b39c1b5ce7486fed4f74a8649fc98e938f0157fc0980a0c",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/feats/mol2graph_rdmda_res.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/feats/mol2graph_rdmda_res.py",
+    "source_sha256": "b4492e2ab975dacc47395abd9b821d364a82967e2c0e4c406495b4695f656f11",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/feats/__init__.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/feats/__init__.py",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/data/data.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/data/data.py",
+    "source_sha256": "c539b5f37d01e7f74afb3a26515831bb0409f4130223405ea89daa20b56eba29",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/data/__init__.py": {
+    "source": "server:/home/mol/vina-rtmscore/third_party/RTMScore/RTMScore/data/__init__.py",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact_copy": true
+  },
+  "third_party/RTMScore/RTMScore/__init__.py": {
+    "packaging_addition": "Regular-package marker to prevent installed-package shadowing; no model/scoring changes"
+  }
+}

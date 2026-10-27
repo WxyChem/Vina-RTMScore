@@ -1,0 +1,6 @@
+# Search/preparation environment (RTMScore worker dependencies are separate).
+numpy
+scipy
+rdkit
+gemmi
+meeko

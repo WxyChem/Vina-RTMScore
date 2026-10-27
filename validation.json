@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "export_date": "2026-10-27",
+  "regression_tests": "28 passed",
+  "isolated_gpu_runs": [
+    {
+      "mode": "manual",
+      "status": "completed",
+      "candidates": 72,
+      "outputs_and_scores_identical_to_original": true,
+      "search_trace_identical_except_elapsed": true,
+      "official_gpu_verification": true,
+      "public_api_max_abs_difference": 1.3322676295501878e-15
+    },
+    {
+      "mode": "reference",
+      "status": "completed",
+      "candidates": 76,
+      "outputs_and_scores_identical_to_original": true,
+      "search_trace_identical_except_elapsed": true,
+      "official_gpu_verification": true,
+      "public_api_max_abs_difference": 1.7763568394002505e-15
+    }
+  ],
+  "total_valid_candidates": 148,
+  "original_scientific_source_or_dataset_accesses": 0,
+  "bundled_rtm_package_resolution_guard": true,
+  "source_hashes": {
+    "vina_rtmscore/__init__.py": "eab655c06d0e4bdcb9ed3e2b79830452fd9c10631aa0b0ee6c69fe2adc9193d4",
+    "vina_rtmscore/backends.py": "2119b6b4190ecca3b3e36952d7cd6e576f45337dadbaaec59ca574ea0e96f682",
+    "vina_rtmscore/cached_rtm.py": "ee055429a43de3a44c7c14f10b8dbb4c23e1f461c30e5caac8f42484b965abce",
+    "vina_rtmscore/chemistry.py": "8d8df6ead249914cb3b4d2e5da70bef9d6f21e7ae7a76242b31ece537b50a266",
+    "vina_rtmscore/docking.py": "29510af0f81f486d1d51378cdaee262e92308f963d60dff081e93d83ad8dee1b",
+    "vina_rtmscore/engine.py": "50a10af6713d4cdf5a938dd51231d7bfd7aa343c347acff00c8212669a5141c0",
+    "vina_rtmscore/fast_vina.py": "939d7ac3ae81674e1b81ff68ad4c17bb372d7d0d2f627e091232da3f7100ce38",
+    "vina_rtmscore/hybrid_moves.py": "24adde320f5391db91a8b07a2059af8c3847b113206d3d870ef5f719ddd987d1",
+    "vina_rtmscore/model_loader.py": "1e94f175b31fde2dc54cf2059c92e12d0d796859f35909896506c26333da360c",
+    "vina_rtmscore/objective.py": "e3ed9a9ebe46faff43f519f1fae986bc834b5c3cc7b7b8d740ca3aaaaf48d09e",
+    "vina_rtmscore/pose_moves.py": "4b263d25beac6e77ddaf52de5ff24283b5d795275014ff4b10ad0c4fd7ec11a4",
+    "vina_rtmscore/preparation.py": "04fcad333d41ae46d55c275ca6a80aa68b6be071c582a906f91aaae52c1ad8ff",
+    "vina_rtmscore/provenance.py": "acea2de62a808f9027ef129a89e4b358b87297b4ff119867ba991417f59966fa",
+    "vina_rtmscore/receptor.py": "0e1fc5f871cc6da2035632cd7de8bbfb2f08711f86983791d320ceab4e99b995",
+    "vina_rtmscore/score_matching.py": "b5da9661a5aeb9cc88b3428bd8b60e000eda95aa2966eac36ae9cb57ac757c60",
+    "vina_rtmscore/worker_client.py": "b77d37ac2b0cb4c2670b6a1216cd0a6e2baa0dfaf7aa597773f661e8253c1676",
+    "scripts/dock.py": "2d280ec5c03b8ededb85050a3efa7c9afdf749609e66dd3ca26a9bbb5dac7896",
+    "scripts/rtm_worker.py": "822ac4471873423aba745c29373239c2d92858b31a8b3bb96793402a0619e747",
+    "scripts/build_fast_vina.py": "efe9b7a3241357b2b187767315a8e7dfa43006dcea2ace277fad8bb25990b585",
+    "native/fast_vina.cpp": "9740cf0969a46ba2d6ff4b3619d6e1d5f1f86d6bca03a4fbd9b88d98aa54035c",
+    "native/build_provenance.json": "f46836853ba26bfc47643b4d145dfe09fc9ce3d94ba4082f516d872c36285eed",
+    "native/vina-1.2.7.tar.gz": "79e5288d10207b85f20adac3dd6f4708eac761c2d8070fbad76ff997cf48e4f9",
+    "native/libfast_vina.so": "c66c72d48dda7fb4272a03cab72e7505eb89615e0f9ed374aca899d80bcebc0d"
+  },
+  "rtm_source_hashes": {
+    "RTMScore/__init__.py": "6dd6ffd259c152359acf1170762687da2cac47c91fc8eac75b89b344b9cb74c9",
+    "RTMScore/data/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "RTMScore/data/data.py": "c539b5f37d01e7f74afb3a26515831bb0409f4130223405ea89daa20b56eba29",
+    "RTMScore/feats/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "RTMScore/feats/extract_pocket_prody.py": "f55b974ebe79f7bf3b39c1b5ce7486fed4f74a8649fc98e938f0157fc0980a0c",
+    "RTMScore/feats/mol2graph_rdmda_res.py": "b4492e2ab975dacc47395abd9b821d364a82967e2c0e4c406495b4695f656f11",
+    "RTMScore/model/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "RTMScore/model/model2.py": "db2738114dce9a997cd77e8818e773266a916522bb061cbccfd022d2256c267c",
+    "RTMScore/model/utils.py": "169ec82f55c563e12ecd64560c9f59d25c8fdef5e997248db084c0568aa6d2ea",
+    "example/rtmscore.py": "add3800b8c6015b7195d08b09c67a5f0856902b5a630fcbf332f5466c913cf8a"
+  },
+  "model_sha256": "399727a85de96c011a75a4c242ebe947753724f01e8d15139fae7bcad106bfc2",
+  "notes": [
+    "Existing Python/CUDA/Boost environments were reused; no original scientific source/data was imported.",
+    "Small-budget interface validation does not establish prospective docking accuracy."
+  ],
+  "local_export_tests": "7 passed",
+  "independent_review": "No remaining critical or important issues after RTMScore package-resolution hardening.",
+  "english_figures": {
+    "seven_method_benchmark.png": {
+      "pixels": [
+        5400,
+        2610
+      ],
+      "dpi": 300
+    },
+    "vina_rtmscore_architecture.png": {
+      "pixels": [
+        3600,
+        5400
+      ],
+      "dpi": 300
+    }
+  },
+  "distribution_scope": "Inference code, model1, native build assets, English README and figures; no old datasets, experimental runs, other engines or environments."
+}
