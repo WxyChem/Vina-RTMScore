@@ -1,0 +1,28 @@
+{
+  "search": {
+    "python": "3.11.17",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "rdkit": "2026.9.1",
+    "gemmi": "0.7.5",
+    "meeko": "0.8.0"
+  },
+  "rtm_worker": {
+    "python": "3.9.16",
+    "torch": "1.12.1",
+    "cuda": "11.3",
+    "dgl": "1.1.1+cu113",
+    "torch-scatter": "2.0.9",
+    "numpy": "1.23.5",
+    "scipy": "1.10.0",
+    "rdkit": "2022.9.1",
+    "MDAnalysis": "2.3.0",
+    "pandas": "1.5.3",
+    "joblib": "1.1.1",
+    "scikit-learn": "1.2.1",
+    "ProDy": "2.2.0"
+  },
+  "hardware": "NVIDIA GeForce RTX 4060 Ti",
+  "native": "Bundled Linux Vina 1.2.7 adapter; rebuild when system/C++/Boost ABI is incompatible.",
+  "note": "Observed validation environment versions, not an automatic cross-platform dependency lock. Python environments and system libraries are not bundled."
+}
