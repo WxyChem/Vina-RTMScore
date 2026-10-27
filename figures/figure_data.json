@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "description": "English-only standalone inference export figures",
+  "source_summary": "extensions/seven_method_comparison_v2/remote/results/summary.json",
+  "source_summary_sha256": "a095f9c67ba8b910c100067766be718504c143a5708fcf52c3bd2adef1d7ec98",
+  "source_plot": "extensions/seven_method_comparison_v2/analysis/analyze_results.py:plot",
+  "source_plot_sha256": "5a449970a3c8b2a17a9f36649c01673903c6acf493fdd9d9a4497b789ea859b2",
+  "method_order": [
+    "vina",
+    "rtm",
+    "hybrid",
+    "diffdock",
+    "karmadock",
+    "ledock",
+    "deepdock"
+  ],
+  "english_labels": {
+    "vina": "Vina",
+    "rtm": "Vina + RTMScore terminal reranking",
+    "hybrid": "Vina–RTMScore hybrid",
+    "diffdock": "DiffDock-L known-pocket",
+    "karmadock": "KarmaDock align-corrected",
+    "ledock": "LeDock",
+    "deepdock": "DeepDock chirality-preserving initialization"
+  },
+  "units": "percent",
+  "metric": "Case-weighted Top-1 success rate",
+  "full_cohort": {
+    "cases": 78,
+    "targets": 20,
+    "means": {
+      "vina": 52.56410256410256,
+      "rtm": 76.92307692307692,
+      "hybrid": 84.61538461538461,
+      "diffdock": 74.78632478632478,
+      "karmadock": 59.82905982905983,
+      "ledock": 34.61538461538461,
+      "deepdock": 29.914529914529915
+    },
+    "per_repeat": {
+      "1": {
+        "vina": {
+          "successes": 40,
+          "denominator": 78,
+          "top1_success_percent": 51.28205128205128,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 62,
+          "denominator": 78,
+          "top1_success_percent": 79.48717948717949,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 66,
+          "denominator": 78,
+          "top1_success_percent": 84.61538461538461,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 57,
+          "denominator": 78,
+          "top1_success_percent": 73.07692307692307,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 45,
+          "denominator": 78,
+          "top1_success_percent": 57.692307692307686,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 26,
+          "denominator": 78,
+          "top1_success_percent": 33.33333333333333,
+          "failures": 19
+        },
+        "deepdock": {
+          "successes": 24,
+          "denominator": 78,
+          "top1_success_percent": 30.76923076923077,
+          "failures": 8
+        }
+      },
+      "2": {
+        "vina": {
+          "successes": 41,
+          "denominator": 78,
+          "top1_success_percent": 52.56410256410257,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 59,
+          "denominator": 78,
+          "top1_success_percent": 75.64102564102564,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 65,
+          "denominator": 78,
+          "top1_success_percent": 83.33333333333334,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 60,
+          "denominator": 78,
+          "top1_success_percent": 76.92307692307693,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 49,
+          "denominator": 78,
+          "top1_success_percent": 62.82051282051282,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 28,
+          "denominator": 78,
+          "top1_success_percent": 35.8974358974359,
+          "failures": 19
+        },
+        "deepdock": {
+          "successes": 23,
+          "denominator": 78,
+          "top1_success_percent": 29.48717948717949,
+          "failures": 8
+        }
+      },
+      "3": {
+        "vina": {
+          "successes": 42,
+          "denominator": 78,
+          "top1_success_percent": 53.84615384615385,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 59,
+          "denominator": 78,
+          "top1_success_percent": 75.64102564102564,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 67,
+          "denominator": 78,
+          "top1_success_percent": 85.8974358974359,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 58,
+          "denominator": 78,
+          "top1_success_percent": 74.35897435897436,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 46,
+          "denominator": 78,
+          "top1_success_percent": 58.97435897435898,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 27,
+          "denominator": 78,
+          "top1_success_percent": 34.61538461538461,
+          "failures": 19
+        },
+        "deepdock": {
+          "successes": 23,
+          "denominator": 78,
+          "top1_success_percent": 29.48717948717949,
+          "failures": 8
+        }
+      }
+    }
+  },
+  "common_cohort": {
+    "cases": 70,
+    "targets": 18,
+    "means": {
+      "vina": 54.285714285714285,
+      "rtm": 78.09523809523809,
+      "hybrid": 85.71428571428571,
+      "diffdock": 74.28571428571428,
+      "karmadock": 57.142857142857146,
+      "ledock": 38.57142857142858,
+      "deepdock": 33.33333333333333
+    },
+    "per_repeat": {
+      "1": {
+        "vina": {
+          "successes": 37,
+          "denominator": 70,
+          "top1_success_percent": 52.85714285714286,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 56,
+          "denominator": 70,
+          "top1_success_percent": 80.0,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 60,
+          "denominator": 70,
+          "top1_success_percent": 85.71428571428571,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 52,
+          "denominator": 70,
+          "top1_success_percent": 74.28571428571429,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 39,
+          "denominator": 70,
+          "top1_success_percent": 55.714285714285715,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 26,
+          "denominator": 70,
+          "top1_success_percent": 37.142857142857146,
+          "failures": 11
+        },
+        "deepdock": {
+          "successes": 24,
+          "denominator": 70,
+          "top1_success_percent": 34.285714285714285,
+          "failures": 0
+        }
+      },
+      "2": {
+        "vina": {
+          "successes": 38,
+          "denominator": 70,
+          "top1_success_percent": 54.285714285714285,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 53,
+          "denominator": 70,
+          "top1_success_percent": 75.71428571428571,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 59,
+          "denominator": 70,
+          "top1_success_percent": 84.28571428571429,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 53,
+          "denominator": 70,
+          "top1_success_percent": 75.71428571428571,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 42,
+          "denominator": 70,
+          "top1_success_percent": 60.0,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 28,
+          "denominator": 70,
+          "top1_success_percent": 40.0,
+          "failures": 11
+        },
+        "deepdock": {
+          "successes": 23,
+          "denominator": 70,
+          "top1_success_percent": 32.857142857142854,
+          "failures": 0
+        }
+      },
+      "3": {
+        "vina": {
+          "successes": 39,
+          "denominator": 70,
+          "top1_success_percent": 55.714285714285715,
+          "failures": 0
+        },
+        "rtm": {
+          "successes": 55,
+          "denominator": 70,
+          "top1_success_percent": 78.57142857142857,
+          "failures": 0
+        },
+        "hybrid": {
+          "successes": 61,
+          "denominator": 70,
+          "top1_success_percent": 87.14285714285714,
+          "failures": 0
+        },
+        "diffdock": {
+          "successes": 51,
+          "denominator": 70,
+          "top1_success_percent": 72.85714285714285,
+          "failures": 0
+        },
+        "karmadock": {
+          "successes": 39,
+          "denominator": 70,
+          "top1_success_percent": 55.714285714285715,
+          "failures": 0
+        },
+        "ledock": {
+          "successes": 27,
+          "denominator": 70,
+          "top1_success_percent": 38.57142857142858,
+          "failures": 11
+        },
+        "deepdock": {
+          "successes": 23,
+          "denominator": 70,
+          "top1_success_percent": 32.857142857142854,
+          "failures": 0
+        }
+      }
+    }
+  },
+  "policies": {
+    "site": "Known binding site",
+    "receptor": "Fixed receptor coordinates",
+    "success": "Symmetry-aware heavy-atom RMSD <= 2 angstrom; no ligand fitting",
+    "failures": "Failures count as unsuccessful and remain in each cohort denominator",
+    "common_cohort": "Receptor-preparation support frozen before new RMSD evaluation",
+    "repeats": "Three repeated trials; correlated targets; not independent case replicates",
+    "budgets": "Computational budgets are unmatched",
+    "ledock": "Separate process trials without controlled public engine seeds",
+    "training_overlap": "RTM overlap annotations only; absence of known RTM overlap does not establish unseen data for every learned method"
+  },
+  "architecture": {
+    "source_hashes": {
+      "vina-rtmscore/vina_rtmscore/engine.py": "50a10af6713d4cdf5a938dd51231d7bfd7aa343c347acff00c8212669a5141c0",
+      "vina-rtmscore/vina_rtmscore/objective.py": "e3ed9a9ebe46faff43f519f1fae986bc834b5c3cc7b7b8d740ca3aaaaf48d09e",
+      "vina-rtmscore/vina_rtmscore/docking.py": "29510af0f81f486d1d51378cdaee262e92308f963d60dff081e93d83ad8dee1b",
+      "vina-rtmscore/vina_rtmscore/preparation.py": "04fcad333d41ae46d55c275ca6a80aa68b6be071c582a906f91aaae52c1ad8ff",
+      "vina-rtmscore/vina_rtmscore/backends.py": "2119b6b4190ecca3b3e36952d7cd6e576f45337dadbaaec59ca574ea0e96f682",
+      "vina-rtmscore/vina_rtmscore/fast_vina.py": "939d7ac3ae81674e1b81ff68ad4c17bb372d7d0d2f627e091232da3f7100ce38",
+      "vina-rtmscore/vina_rtmscore/cached_rtm.py": "ee055429a43de3a44c7c14f10b8dbb4c23e1f461c30e5caac8f42484b965abce",
+      "vina-rtmscore/vina_rtmscore/hybrid_moves.py": "24adde320f5391db91a8b07a2059af8c3847b113206d3d870ef5f719ddd987d1",
+      "vina-rtmscore/scripts/dock.py": "2d280ec5c03b8ededb85050a3efa7c9afdf749609e66dd3ca26a9bbb5dac7896",
+      "vina-rtmscore/scripts/rtm_worker.py": "822ac4471873423aba745c29373239c2d92858b31a8b3bb96793402a0619e747"
+    },
+    "default_budget": {
+      "chains": 32,
+      "steps_per_chain": 256,
+      "starts": 4
+    },
+    "calibration": "Fixed warmup median/IQR; IQR floor 0.001",
+    "objective": "J = z_E - lambda * z_S; lower is better",
+    "local_optimization": "CPU Vina BFGS on Vina energy; no RTMScore gradient",
+    "final_ranking": "All valid warmup and hybrid candidates, including Metropolis-rejected proposals"
+  },
+  "artifacts": {
+    "seven_method_benchmark.pdf": {
+      "sha256": "000b518519e3b11654f984d7098e29799c720dde5f5d8a6c214ce59df03ea60f"
+    },
+    "seven_method_benchmark.png": {
+      "sha256": "6e1da75b8c349ee4d692996043b1f10377be0a925d38e533ac5795f750b11333"
+    },
+    "seven_method_benchmark.svg": {
+      "sha256": "6881f40a3d55212442ee5dd835c0a2f8b3a3c4dc88deb76e993f28f9e165d417"
+    },
+    "vina_rtmscore_architecture.pdf": {
+      "sha256": "ea16bcec3ad21b5da8df6371870167cc1791bffa6bfda2049f816f4d3f0260e7"
+    },
+    "vina_rtmscore_architecture.png": {
+      "sha256": "d9347befeb6c8624b40dd17cbb29f3ab2055f8afaba0a087ac6fbf0e09721804"
+    },
+    "vina_rtmscore_architecture.svg": {
+      "sha256": "c73759be889461d998d8068427f4fcc5129549e0aee324c018ebcdc558e82038"
+    }
+  }
+}
